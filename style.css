@@ -24,19 +24,24 @@ a {
     overflow: hidden;
     border-bottom: 1px solid #ccc;
 }
-
+.form-group {
+    margin-bottom: 2px;
+}
 .nav-tabs {
     margin: 0
     margin-bottom:-1px;
 }
 .tab-content {
-    overflow-y:scroll;
-    /*height: 100%; */
+    /*overflow-y:scroll;
+    height: 100%; */
     border-left: 1px solid #ccc ; 
     border-right: 1px solid #ccc;
     border-top:1px solid #ccc;
     padding:10px;
     background-color:#ffffff;
+}
+.navbar {
+    margin-bottom:0px;
 }
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
 
@@ -57,4 +62,34 @@ a {
 .img-container{
    text-align:bottom;
    margin: 0 0 0 20px;
+}
+#runModel {
+    margin:20px;
+    width:80%;
+}
+.da_param {
+    white-space:nowrap;
+    border-bottom-style:solid;
+    border-bottom-width: thin;
+    border-bottom-color: #dce4ec;
+}
+.da_param_wd {
+    max-width:90px;
+}
+.da_param_lb {
+    vertical-align:sub;
+    font-weight:normal;
+}
+.input-ec {
+    margin-left: 15px;
+    margin-bottom: 10px;
+    float:right;
+}
+.inputec {
+    float: right;
+    width: 110px;
+    clear: right;
+}
+.tr-ec {
+    border-bottom: #ccc;
 }
